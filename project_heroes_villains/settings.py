@@ -34,6 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'super_types',
+    'supers',
 ]
 
 MIDDLEWARE = [
@@ -115,6 +118,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 USE_TZ = False 
 
 try:
-    from project_heroes_villains.local_settings import *
+    from project_heroes_villains.local_setting import *
 except ImportError:
     pass

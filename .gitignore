@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 inst.txt
+
+local_setting.py
