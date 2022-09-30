@@ -131,3 +131,5 @@ dmypy.json
 inst.txt
 
 local_setting.py
+
+heroes_villains_api_postman.json
